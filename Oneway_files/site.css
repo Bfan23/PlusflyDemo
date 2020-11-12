@@ -1,4 +1,4 @@
-﻿header{
+﻿nav{
     box-shadow: 0 3px 0 0 rgba(0,0,0,.25);
     background-color:white;
     max-height:60px;
@@ -8,6 +8,11 @@
 #page {
     margin-top: 80px;
     color: #53605e;
+}
+
+.active a{
+    text-decoration:underline;
+    font-weight: bolder;
 }
 
 .flight {
