@@ -1,13 +1,26 @@
 ﻿nav{
     box-shadow: 0 3px 0 0 rgba(0,0,0,.25);
     background-color:white;
-    max-height:60px;
+    height:60px;
     border-bottom: 1px solid gray;
 }
 
 #page {
     margin-top: 80px;
     color: #53605e;
+}
+
+#route-tabs{
+    position:fixed;
+    top: 60px;
+    width: 100%;
+    padding-top:20px;
+    background-color:white;
+    z-index: 9999;
+}
+
+#route-tab-content{
+    padding-top: 70px;
 }
 
 .active a{
